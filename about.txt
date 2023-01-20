@@ -1,0 +1,44 @@
+
+
+==============================================================
+==============================================================
+
+ Welcome! 
+
+ It's 2023-01-17 at 05:11 PM
+
+ This file is running on:    nt Windows 10
+ 
+ The Python version is:      3.10.9
+ 
+ The Python interpreter is at: 
+ c:\Users\Sammie\Documents\Northwest\44-671\Module 02\streaming-02-multiple-processes\.conda\python.exe
+
+ The active environment should be either conda OR pip (one should be None):
+
+     Active conda env is: c:\Users\Sammie\Documents\Northwest\44-671\Module 02\streaming-02-multiple-processes\.conda
+     Active pip env is:   None
+ 
+ The path to the active virtual environment is:
+
+ c:\Users\Sammie\Documents\Northwest\44-671\Module 02\streaming-02-multiple-processes\.conda
+ 
+ The Current Working Directory (CWD) where this command was launched is:
+
+ C:\Users\Sammie\Documents\Northwest\44-671\Module 02\streaming-02-multiple-processes
+ 
+ The absolute path to the data directory is:
+
+ C:\Users\Sammie\Documents\Northwest\44-671\Module 02\streaming-02-multiple-processes\
+ 
+ The absolute path to this source directory is:
+
+ c:\Users\Sammie\Documents\Northwest\44-671\Module 02\streaming-02-multiple-processes
+ 
+ The absolute path to this file is:
+
+ c:\Users\Sammie\Documents\Northwest\44-671\Module 02\streaming-02-multiple-processes\about.py
+ 
+==============================================================
+==============================================================
+

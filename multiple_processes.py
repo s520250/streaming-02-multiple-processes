@@ -31,7 +31,7 @@ import sys
 
 # define global variables
 
-task_duration = 0 # TODO: increase this to 3 and see what happens
+task_duration = 3 # TODO: increase this to 3 and see what happens
 
 dbname = "shared.db"
 
@@ -131,7 +131,7 @@ def recreate_database():
 
 if __name__ == "__main__":
 
-    # print some helepful information
+    # print some helpful information
     print(info_message)
 
     # start over with a clean database

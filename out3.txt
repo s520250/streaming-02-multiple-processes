@@ -5,3 +5,60 @@ This will clear the console output.
 Run the file once while the tasks are longer. 
 
 Copy and paste the terminal results (when task_duration is 3) here.
+
+# Sammie Bever's output for second run (task_duration = 3) of multiple_processes.py file
+# error received: "database is locked"
+
+Microsoft Windows [Version 10.0.19044.2364]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\Sammie\Documents\Northwest\44-671\Module 02\streaming-02-multiple-processes>activate
+
+(base) C:\Users\Sammie\Documents\Northwest\44-671\Module 02\streaming-02-multiple-processes>conda activate "c:\Users\Sammie\Documents\Northwest\44-671\Module 02\streaming-02-multiple-processes\.conda"
+
+(c:\Users\Sammie\Documents\Northwest\44-671\Module 02\streaming-02-multiple-processes\.conda) C:\Users\Sammie\Documents\Northwest\44-671\Module 02\streaming-02-multiple-processes>"c:/Users/Sammie/Documents/Northwest/44-671/Module 02/streaming-02-multiple-processes/.conda/python.exe" "c:/Users/Sammie/Documents/Northwest/44-671/Module 02/streaming-02-multiple-processes/multiple_processes.py"
+
+
+STARTING UP.............................
+It's 2023-01-17 at 05:45 PM
+
+This file is running on:    nt Windows 10
+The Python version is:      3.10.9
+
+The Python interpreter is at:
+ c:\Users\Sammie\Documents\Northwest\44-671\Module 02\streaming-02-multiple-processes\.conda\python.exe
+
+
+DELETED tabble pets.
+CREATED table pets.
+
+P1 getting ready to insert Ace the Dog.
+P3 getting ready to insert Emma the Rabbit.
+P2 getting ready to insert Cooper the Rabbit.
+P1 ADDED Ace the Dog.
+P3 ADDED Emma the Rabbit.
+P1 getting ready to insert Buddy the Dog.
+Process Process-2:
+Traceback (most recent call last):
+  File "c:\Users\Sammie\Documents\Northwest\44-671\Module 02\streaming-02-multiple-processes\.conda\lib\multiprocessing\process.py", line 314, in _bootstrap
+    self.run()
+  File "c:\Users\Sammie\Documents\Northwest\44-671\Module 02\streaming-02-multiple-processes\.conda\lib\multiprocessing\process.py", line 108, in run       
+    self._target(*self._args, **self._kwargs)
+  File "c:\Users\Sammie\Documents\Northwest\44-671\Module 02\streaming-02-multiple-processes\multiple_processes.py", line 106, in process_two
+    insert_pet("P2", "Cooper", "Rabbit")
+  File "c:\Users\Sammie\Documents\Northwest\44-671\Module 02\streaming-02-multiple-processes\multiple_processes.py", line 95, in insert_pet
+    cur.execute(sql)
+sqlite3.OperationalError: database is locked
+P3 getting ready to insert Felix the Cat.
+P3 ADDED Felix the Cat.
+Process Process-1:
+Traceback (most recent call last):
+  File "c:\Users\Sammie\Documents\Northwest\44-671\Module 02\streaming-02-multiple-processes\.conda\lib\multiprocessing\process.py", line 314, in _bootstrap
+    self.run()
+  File "c:\Users\Sammie\Documents\Northwest\44-671\Module 02\streaming-02-multiple-processes\.conda\lib\multiprocessing\process.py", line 108, in run       
+    self._target(*self._args, **self._kwargs)
+  File "c:\Users\Sammie\Documents\Northwest\44-671\Module 02\streaming-02-multiple-processes\multiple_processes.py", line 103, in process_one
+    insert_pet("P1", "Buddy", "Dog")
+  File "c:\Users\Sammie\Documents\Northwest\44-671\Module 02\streaming-02-multiple-processes\multiple_processes.py", line 95, in insert_pet
+    cur.execute(sql)
+sqlite3.OperationalError: database is locked
